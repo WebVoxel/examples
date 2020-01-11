@@ -1,0 +1,23 @@
+{
+  "name": "@webvoxel/example-minecraft",
+  "version": "0.0.1-a1",
+  "description": "Minecraft made in WebVoxel",
+  "main": "index.js",
+  "repository": "https://github.com/WebVoxel/examples",
+  "author": "Landon Gravat <railinator4903@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --config=webpack.dev.js"
+  },
+  "dependencies": {
+    "@webvoxel/core": "^0.0.1-a5",
+    "@webvoxel/plugin-wasdcontrols": "^0.0.1-a5",
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
