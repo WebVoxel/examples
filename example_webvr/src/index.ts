@@ -17,3 +17,5 @@ const game = new Game({
 });
 
 game.start();
+
+game.renderer.domElement.addEventListener('click', () => wasd.controls.lock());
