@@ -15,10 +15,22 @@ module.exports = {
     devServer: {
         disableHostCheck: true,
     },
+    resolve: {
+        extensions: [".ts", ".js"]
+    },
     watch: true,
+    module: {
+        rules: [
+            {
+                test: /\.ts$/,
+                // exclude: /node_modules/,
+                loader: 'awesome-typescript-loader'
+            }
+        ]
+    },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Minecraft Example',
+            title: 'WebVR Example',
             template: path.resolve(paths.srcDir, 'index.html'),
             filename: 'index.html',
             chunks: ['main'],

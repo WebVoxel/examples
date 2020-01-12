@@ -1,0 +1,26 @@
+{
+  "name": "@webvoxel/example-webvr",
+  "version": "0.0.1-a1",
+  "description": "A WebVoxel VR experience.",
+  "main": "index.js",
+  "repository": "https://github.com/WebVoxel/examples",
+  "author": "Landon Gravat <railinator4903@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --config=webpack.dev.js"
+  },
+  "dependencies": {
+    "@webvoxel/core": "^0.0.1-b6",
+    "@webvoxel/plugin-webvr": "^0.0.1-a6",
+    "@webvoxel/plugin-wasdcontrols": "^0.0.1-a5",
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
