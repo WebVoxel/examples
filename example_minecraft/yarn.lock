@@ -172,19 +172,60 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
-"@webvoxel/core@^0.0.1-a5":
-  version "0.0.1-a5"
-  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.1-a5.tgz#11c585e42f3715be5c9531bed9ef230e58a89119"
-  integrity sha512-rUtkyM2sDt5R6eMVZ+4jSIsPp/+GNsUc9Z9XOKfaxHgY2NhyCmAAEjB0KfXu6p5MjMSqh9lS8NHOrDe6tUJkNA==
+"@webvoxel/core@^0.0.1-r2":
+  version "0.0.1-r2"
+  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.1-r2.tgz#779b643cac834910ab0ddba95e42f5924d218bb5"
+  integrity sha512-icwuYU1kDZmtpfpcgaennSPJLldFB69CcVj0tXJRqZ0wKN3zXLwz9xsIlu72+OSfOae5ALpISNEn5NGd0KvMtw==
   dependencies:
     three "^0.112.0"
 
-"@webvoxel/plugin-wasdcontrols@^0.0.1-a5":
-  version "0.0.1-a5"
-  resolved "https://registry.yarnpkg.com/@webvoxel/plugin-wasdcontrols/-/plugin-wasdcontrols-0.0.1-a5.tgz#85b71fbe5341b2588bb15c7ab5077aecdd76697f"
-  integrity sha512-rMUeJDxN9YxHcLyhFa810pB4xTOJP3dt+2IBwk0Yw5H4hA3U7bqlrPoDEL6RQMhlJM0q4aERUGx+K8W0U6wpzA==
+"@webvoxel/core@^0.0.2-a11":
+  version "0.0.2-a11"
+  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.2-a11.tgz#5ab49911854ff719da97c6f069def4739a2ad576"
+  integrity sha512-2l9YhoW4vfWtEVwfT06VOu9hFgTV3sLb6Ub2pf2OGrps8xEKjmSbZ9P5ilkTudQ45QtzdZzH4/a7VMwWgkyOEw==
   dependencies:
-    "@webvoxel/core" "^0.0.1-a5"
+    lodash "^4.17.15"
+    three "^0.112.0"
+
+"@webvoxel/core@^0.0.2-b1":
+  version "0.0.2-b1"
+  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.2-b1.tgz#6f8499ccc1ee982ad3332b4c480bcb24d8c3d3db"
+  integrity sha512-pXfOP7y5rFN6qBPv/CK6LUEVDBP1bOGaUcT/FBZizTaCmJaE2k51AsVtJXYg0TQg6nKjloFAjSsl/v4n/xuP3w==
+  dependencies:
+    lodash "^4.17.15"
+    three "^0.112.0"
+
+"@webvoxel/core@^0.0.2-b6":
+  version "0.0.2-b6"
+  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.2-b6.tgz#96252b1944c01600f04c160cb4b4d04c1bdc85c2"
+  integrity sha512-Fr9Ns9w9n+98ODeOILXhhKQOoslRGsokDSHbYB3KvsGxZb3SjGApazV1res/NCHn5BSXRcqgwMY7E13OL6qrAQ==
+  dependencies:
+    lodash "^4.17.15"
+    three "^0.112.0"
+
+"@webvoxel/plugin-reach@^0.0.2-a5":
+  version "0.0.2-a5"
+  resolved "https://registry.yarnpkg.com/@webvoxel/plugin-reach/-/plugin-reach-0.0.2-a5.tgz#b7d9b82337b7cbb068184264fb6ddf8de65f7572"
+  integrity sha512-M39DV5d+Adl/lcQ0SOW6cggLcR+U6uwlvgpV3CAbolbm+2RwIc/QPzLH+wduaDEJ2XbL1BZblz1UOeCLbGiYuw==
+  dependencies:
+    "@webvoxel/core" "^0.0.2-b1"
+    "@webvoxel/plugin-wasdcontrols" "^0.0.1-r4"
+    lodash "^4.17.15"
+    three "^0.112.1"
+
+"@webvoxel/plugin-wasdcontrols@^0.0.1-r4":
+  version "0.0.1-r4"
+  resolved "https://registry.yarnpkg.com/@webvoxel/plugin-wasdcontrols/-/plugin-wasdcontrols-0.0.1-r4.tgz#d666dd1f699e268ead5b5136fa840df611d0b288"
+  integrity sha512-68NghL16PMKhHIhSHyXUiMN/f2R6deoYmvs8nd8r50/IvlE2FhistbNFLP1mPyQVAQK/wadu0xmAUsKjDxi9Sg==
+  dependencies:
+    "@webvoxel/core" "^0.0.1-r2"
+
+"@webvoxel/plugin-wasdcontrols@^0.0.2-a2":
+  version "0.0.2-a2"
+  resolved "https://registry.yarnpkg.com/@webvoxel/plugin-wasdcontrols/-/plugin-wasdcontrols-0.0.2-a2.tgz#ca6cb8c87f0e42ff440e3cb09c58d07414eb2e20"
+  integrity sha512-RzX6Ta4HXvwInFN5M9P9b3wj29AbzNrhDCcTkKwIHQNihQNsK/COeNbZsPT4kDz0FqrBgt9pGXLf7VrvA5v3UA==
+  dependencies:
+    "@webvoxel/core" "^0.0.2-a11"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -2267,7 +2308,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.3:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
@@ -3671,7 +3712,7 @@ terser@^4.1.2:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
-three@^0.112.0:
+three@^0.112.0, three@^0.112.1:
   version "0.112.1"
   resolved "https://registry.yarnpkg.com/three/-/three-0.112.1.tgz#f8d8f4d0f8e5f753dac6260491b8209457fdc131"
   integrity sha512-8I0O74hiYtKl3LgDNcPJbBGOlpekbcJ6fJnImmW3mFdeUFJ2H9Y3/UuUSW2sBdjrIlCM0gvOkaTEFlofO900TQ==
