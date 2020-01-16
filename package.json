@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@webvoxel/core": "^0.0.2-b10"
+  },
+  "devDependencies": {
+    "webpack-merge": "^4.2.2"
+  }
+}

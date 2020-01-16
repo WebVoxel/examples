@@ -195,10 +195,10 @@
     lodash "^4.17.15"
     three "^0.112.0"
 
-"@webvoxel/core@^0.0.2-b6":
-  version "0.0.2-b6"
-  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.2-b6.tgz#96252b1944c01600f04c160cb4b4d04c1bdc85c2"
-  integrity sha512-Fr9Ns9w9n+98ODeOILXhhKQOoslRGsokDSHbYB3KvsGxZb3SjGApazV1res/NCHn5BSXRcqgwMY7E13OL6qrAQ==
+"@webvoxel/core@^0.0.2-b11":
+  version "0.0.2-b11"
+  resolved "https://registry.yarnpkg.com/@webvoxel/core/-/core-0.0.2-b11.tgz#14fb4af96809798e545866d59046e81c0c94fffb"
+  integrity sha512-fpW10UFGyyvWdYxgs1oA1kqyGlP82iy3bcau76xs1qprtJcSSiqDNkKl4bzvA2FKnG+BlRGfpiIBs32fidoaTA==
   dependencies:
     lodash "^4.17.15"
     three "^0.112.0"
@@ -4035,6 +4035,13 @@ webpack-log@^2.0.0:
   dependencies:
     ansi-colors "^3.0.0"
     uuid "^3.3.2"
+
+webpack-merge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/webpack-merge/-/webpack-merge-4.2.2.tgz#a27c52ea783d1398afd2087f547d7b9d2f43634d"
+  integrity sha512-TUE1UGoTX2Cd42j3krGYqObZbOD+xF7u28WB7tfUordytSjbWTIjK/8V0amkBfTYN4/pB/GIDlJZZ657BGG19g==
+  dependencies:
+    lodash "^4.17.15"
 
 webpack-sources@^1.4.0, webpack-sources@^1.4.1:
   version "1.4.3"

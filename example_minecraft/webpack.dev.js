@@ -1,28 +1,10 @@
-const path = require('path');
-const paths = require('./webpack.paths');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const merge = require('webpack-merge');
 
-module.exports = {
+module.exports = merge(require('./webpack.common'), {
     mode: 'development',
-    devtool: 'source-map',
-    entry: {
-        main: path.resolve(paths.srcDir, 'index.ts'),
-    },
-    output: {
-        path: paths.buildDir,
-        filename: '[name].[hash].js'
-    },
+    watch: true,
     devServer: {
         disableHostCheck: true,
+        hot: true,
     },
-    watch: true,
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Minecraft Example',
-            template: path.resolve(paths.srcDir, 'index.html'),
-            filename: 'index.html',
-            chunks: ['main'],
-            inject: 'body'
-        })
-    ]
-};
+});
